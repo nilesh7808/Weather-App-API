@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(weather.jpg);
+    background-size: cover;
+    background-position: unset;
+    background-repeat: no-repeat;
+}
+
+#container {
+    width: 360px;
+    height: auto;
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1 {
+    display: inline-block;
+    color: #ffbe0b;
+    font-size: 4.0rem;
+    padding: 10px;
+    text-shadow: -8px 5px 0.2px black;
+}
+
+p {
+    color: #ffba08;
+    font-size: 2.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    padding: 2px;
+    text-shadow: -3px 4px 0.02px black;
+}
+
+#special {
+    color: #ffba08;
+    font-size: 1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 2px;
+    margin-top: 0px;
+}
+
+ul {
+    list-style: none;
+    margin: 30px auto;
+    overflow: hidden;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+li {
+    padding: 5px;
+    text-transform: capitalize;
+    color: #f8961e;
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: -3px 4px 0.02px black;
+    display: inline-block;
+}
+
+input {
+    width: 70%;
+    margin: 10px;
+    padding: 5px 5px;
+    border-radius: 20px 0px 20px 0px;
+    background-color: #cfe1b9;
+    box-shadow: -1px 5px 0.5px#463f3a;
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type="text"] {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input[placeholder] {
+    text-align: center;
+}
