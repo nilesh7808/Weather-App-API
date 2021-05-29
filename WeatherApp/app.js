@@ -7,7 +7,7 @@ const p1 = document.getElementById('special');
 
 const getCityWeather = (citySearch) => {
 
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${citySearch}&appid=b699a8cbf7827f5c96aa75c72a5d28c4`)
+    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${citySearch}&appid=`)
         .then(fetchedData => {
             return fetchedData.json();
         })
